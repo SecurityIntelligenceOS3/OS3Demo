@@ -27,7 +27,7 @@ class StdOutListener(StreamListener):
 
     def mongo_connect(self):
         client = MC()
-        db = client.DeloitteDemo
+        db = client.OS3Demo
         collection = db.twitter
 
         return collection

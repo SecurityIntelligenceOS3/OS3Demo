@@ -7,7 +7,7 @@ from pymongo import MongoClient as MC
 
 #connect to mongoDB database
 client = MC()
-db = client['DeloitteDemo']
+db = client['OS3Demo']
 collection = db.twitter_cluster
 
 

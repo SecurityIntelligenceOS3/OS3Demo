@@ -15,7 +15,7 @@ X_train = np.array(["The most rainy city must be Amsterdam!",
                     "Have you visited Amsterdam During King Day?", 
                     "There are so many people in Tokyo", 
                     "I wanna be a part of it New York New York",
-                    "New York then Tokyo then back to Amsterdam!!",
+                    "Traveling to New York then Tokyo then back to Amsterdam!!",
                     "I had a friend from Amsterdam but he now moved to Tokyo",
                     "New York and Tokyo are among the most populus cities",
                     "Amsterdam Light Festival attracted people from New York",
@@ -28,7 +28,7 @@ X_test = np.array(['Where can I find the best bitterballen?',
                     'My friend moved',
                     'Light Festival',
 		    'Shall I try weed?',
-		    'back'])
+		    'Traveling'])
 target_names = ['Amsterdam','New York', 'Tokyo']
 
 classifier = Pipeline([

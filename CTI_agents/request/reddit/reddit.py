@@ -27,7 +27,7 @@ def setup():
 def mongo_connect():
 
     client = MC()
-    db = client.DeloitteDemo
+    db = client.OS3Demo
     collection = db.reddit
 
     return client, collection

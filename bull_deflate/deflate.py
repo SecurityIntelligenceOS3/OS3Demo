@@ -6,7 +6,7 @@ count = {}
 threshold = 100
 
 client = MC()
-db = client['DeloitteDemo']
+db = client['OS3Demo']
 collection = db.bull
 doc = collection.find()
 

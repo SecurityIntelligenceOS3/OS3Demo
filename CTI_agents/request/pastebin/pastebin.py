@@ -28,7 +28,7 @@ class PastebinSpider(CrawlSpider):
     start_urls = ['http://www.pastebin.com/archive']
     rules = [Rule(LinkExtractor(allow=['/[a-zA-Z]*\d*']), 'parse_items')]
     client = MC()
-    db = client.DeloitteDemo
+    db = client.OS3Demo
     collection = db.pastebin
     #collection.remove({'p':[]})
     def parse_items(self, response):

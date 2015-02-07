@@ -272,11 +272,11 @@ sentenceTail.setTermsChoices(
 # --------------------------------------------------
 
 client = MongoClient()
-db = client['DeloitteDemo']
+db = client['OS3Demo']
 collection = db['bull']
 collection.remove({})
     
-for i in xrange(10000):
+for i in xrange(100000):
     doc = ""
     for i in xrange(50):
         generatedSentence = sentence.getString()

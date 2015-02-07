@@ -29,7 +29,7 @@ def download(url):
 def mongo_connect():
 
     client = MC()
-    db = client.DeloitteDemo
+    db = client.OS3Demo
     collection = db.phishtank
 
     return client, collection
